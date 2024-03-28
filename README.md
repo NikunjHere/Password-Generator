@@ -18,4 +18,4 @@ This is a simple password generator web app built using **HTML**, **CSS**, and *
 
 
 
-Feel free to modify, add and improve this app with your own ideas!
+**Feel free to modify, add and improve this app with your own ideas!**
