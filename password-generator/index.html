@@ -1,0 +1,37 @@
+<div class="passwordGenerator">
+    <h2>Password Generator</h2>
+    <div class="box">
+        <div class="passwordBox">
+            <input type="text" id="password" readonly>
+            <button id="copyPassword">Copy</button>
+        </div>
+        <div class="controls">
+            <div class="range">
+                <label for="password-lengthRange">
+                    <span>Password length</span>
+                    <span id="password-lengthValue">10</span>
+                </label>
+                <input type="range" min="8" max="25" value="10" id="password-lengthRange">
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="uppercase">
+                <label for="uppercase">Includes Uppercase.</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">Includes Lowercase.</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="specialCharacters">
+                <label for="specialCharacters">Includes Special Characters.</label>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">Includes Numbers.</label>
+            </div>
+            <div class="button">
+                <button id="generatePassword">Generate Password</button>
+            </div>
+        </div>
+    </div>
+</div>
